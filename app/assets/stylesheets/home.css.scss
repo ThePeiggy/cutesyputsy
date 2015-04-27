@@ -1,3 +1,113 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.header-text {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 67%;
+  width: 100%;
+}
+
+.header-text-coming {
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.header-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+}
+
+.header-title-coming {
+  font-family: 'Lato', sans-serif;
+  font-size: 100px;
+}
+
+.header {
+  display: table;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.header-coming {
+  background: url(image_path('seated_magician.jpg')) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-landing {
+  background: url(image_path('minimal_magician.jpg')) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.section-title {
+  font-family: 'Lato', sans-serif;
+}
+
+hr.dark {
+  width: 80%;
+  border-top: 1px solid darkgray;
+}
+
+.intro {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.intro p {
+  color: #333;
+  font-size: 18px;
+}
+
+.table.table-borderless>tbody>tr>td {
+  color: #333;
+  border-top: none;
+  border: none;
+  font-size: 18px;
+}
+
+.btn.landing {
+  background-color: transparent;
+  color: white;
+}
+
+a.btn.landing:focus {
+  background-color: transparent;
+  color: white;
+}
+
+a.btn.landing:hover {
+  background-color: white;
+  color: black;
+}
+
+a.btn.landing:hover:focus {
+  background-color: white;
+  color: black;
+}
+
+.dark-icon {
+  color: black;
+}
+
+.dark-icon:hover {
+  color: #333;
+}
