@@ -11,7 +11,7 @@ body {
 
 .header-text {
   text-align: center;
-  color: white;
+  color: black;
   position: absolute;
   top: 67%;
   width: 100%;
@@ -86,22 +86,22 @@ hr.dark {
 
 .btn.landing {
   background-color: transparent;
-  color: white;
+  color: black;
 }
 
 a.btn.landing:focus {
   background-color: transparent;
-  color: white;
+  color: black;
 }
 
 a.btn.landing:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 a.btn.landing:hover:focus {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .dark-icon {
