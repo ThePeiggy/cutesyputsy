@@ -13,7 +13,7 @@ body {
   text-align: center;
   color: black;
   position: absolute;
-  top: 67%;
+  top: 50%;
   width: 100%;
 }
 
@@ -84,24 +84,45 @@ hr.dark {
   font-size: 18px;
 }
 
-.btn.landing {
+.btn.btn-landing {
   background-color: transparent;
   color: black;
 }
 
-a.btn.landing:focus {
+a.btn.btn-landing:focus {
   background-color: transparent;
   color: black;
 }
 
-a.btn.landing:hover {
+a.btn.btn-landing:hover {
   background-color: black;
   color: white;
 }
 
-a.btn.landing:hover:focus {
+a.btn.btn-landing:hover:focus {
   background-color: black;
   color: white;
+}
+
+
+.btn.btn-subscribe {
+  background-color: #62c462;
+  color: black;
+}
+
+a.btn.btn-subscribe:focus {
+  background-color: #62c462;
+  color: black;
+}
+
+a.btn.btn-subscribe:hover {
+  background-color: #51a351;
+  color: black;
+}
+
+a.btn.btn-subscribe:hover:focus {
+  background-color: #51a351;
+  color: black;
 }
 
 .dark-icon {

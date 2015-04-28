@@ -1,10 +1,11 @@
 Myapp::Application.routes.draw do
-  get "home/index"
+  get "home/landing"
+  post "home/create_subscriber"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-root to: 'home#index'
+  root to: 'home#landing'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

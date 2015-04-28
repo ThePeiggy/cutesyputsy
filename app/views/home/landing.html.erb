@@ -3,9 +3,14 @@
     <h1 class="header-title"><b>Cutesy Putsy</b></h1>
     <h3>For All Your Cutesy Shit</h3>
     <br>
-    <a href="#intro" class="btn btn-large btn-default landing">About</a>
-    <a href="#" class="btn btn-large btn-default landing">Blog</a>
-    <a href="https://instagram.com/cutesyputsy/" target="_blank" class="btn btn-large btn-default landing">Instagram</a>
+    <%= form_for @subscriber, url: home_create_subscriber_path do |f| %>
+      <%= f.text_field :email, class: 'header-field', placeholder: 'Email' %>
+      <br>
+      <br>
+      <%= link_to 'About', '#intro', class: 'btn btn-large btn-default btn-landing' %>
+      <%= link_to 'Instagram', 'https://instagram.com/cutesyputsy', class: 'btn btn-large btn-default btn-landing' %>
+      <%= f.submit 'Subscribe', class: 'btn btn-large btn-default btn-subscribe' %>
+    <% end %>
   </div>
 </div>
 
