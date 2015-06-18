@@ -1,2 +1,2 @@
 # cutesyputsy
-Public page for Cutesy Putsy
+A static webpage for a T-Shirt shop.
